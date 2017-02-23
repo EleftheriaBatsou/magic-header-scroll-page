@@ -1,0 +1,36 @@
+html body{
+  
+  background-color: #F8BBD0;
+}
+
+/* new css for the animation */
+body{ 
+  margin: 0px; 
+  text-align: center; 
+}
+
+#pagetop{
+	position: fixed;
+	top: 0px;
+	width:100%;
+	height: 120px;
+	background: #00838F;
+	color: #FFF;
+	font-size: 23px;
+	padding-top: 50px;
+	transition: height 0.3s linear 0s, padding 0.3s linear 0s;
+	overflow:hidden;
+}
+#pagetop > #menu{
+	position: absolute;
+	bottom: 0px;
+	width:100%;
+	background: #AD1457;
+	height: 50px;
+	transition: height 0.3s linear 0s;
+}
+#wrapper{ 
+  margin-top: 20%; 
+  padding: 30px;
+}
+
